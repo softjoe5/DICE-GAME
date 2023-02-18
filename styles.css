@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+body {
+    color: white;
+    height: 100%;
+    background-size: cover;
+    background-image:linear-gradient(to right, rgba(29, 0, 0, 0), rgb(10, 1, 1)), url(https://images.unsplash.com/photo-1596270893948-f493df7740f1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80);
+    
+   
+}
+
+
+/* Container */
+
+.container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+h1, p {
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+h1 {
+    margin: 50px;
+    font-size: 8rem;
+    color: white;
+    
+  }
+
+  span {
+    color: #ff4c68;
+  }
+
+  p {
+    font-size: 2rem;
+    color:  white;
+    margin-top: -50px;
+  }
+
+
+  /* dice */
+
+  .dice {
+    text-align: center;
+    display: inline-block;
+  
+  }
+
+  img {
+    width: 80%;
+    box-shadow: rgb(34, 31, 31);
+  }
+
+.dice p {
+    margin-top: 5%;
+}
+
+/* btn */
+
+.btn {
+    text-align: center;
+    margin-top: 4%;
+    background-color: white;
+    color:#ff4c68;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: 'Ubuntu', cursive;
+    border: 0px solid;
+    width: 18%;
+    height: 50px;
+    
+}
+
+.btn:hover {
+    background-color: #ff4c68;
+    color: white;
+}
+
+
+footer {
+    margin-top: 5%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Ubuntu', cursive;
+}
